@@ -1,0 +1,31 @@
+{
+  "uf": "SP",
+  "estado_nome": "São Paulo",
+  "cidade": "São Paulo",
+  "concessionaria": "Enel Distribuição São Paulo",
+  "tensao_fase_neutro_v": 127,
+  "tensao_fase_fase_v": 220,
+  "frequencia_hz": 60,
+  "temperatura_media_projeto_c": 30,
+  "fator_correcao_temperatura_nbr5410": 1.0,
+  "distribuidora_parceira": {
+    "nome": "Central Materiais Elétricos - SP",
+    "whatsapp": "551130000000"
+  },
+  "regioes_bairros": {
+    "ZONA_SUL_MOEMA": {
+      "nome": "Zona Sul / Moema / Brooklin",
+      "padrao_predominante": "APARTAMENTO_ALVENARIA_ESTRUTURAL",
+      "valor_m2_com_infra_medio": 65.0,
+      "valor_m2_sem_infra_medio": 42.0,
+      "fator_ajuste_fios_regional": 1.06
+    },
+    "ZONA_LESTE_TATUAPE": {
+      "nome": "Zona Leste / Tatuapé / Penha",
+      "padrao_predominante": "CASA_PADRAO_MEDIO_LAJE",
+      "valor_m2_com_infra_medio": 52.0,
+      "valor_m2_sem_infra_medio": 34.0,
+      "fator_ajuste_fios_regional": 1.04
+    }
+  }
+}

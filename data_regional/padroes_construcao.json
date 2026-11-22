@@ -1,0 +1,63 @@
+{
+  "versao_matriz": "2026.11",
+  "descricao": "Matriz empírica de pré-definição de metragem de condutores por padrão construtivo, calibrada continuamente pelos feedbacks pós-obra dos eletricistas.",
+  "padroes_casa": {
+    "CASA_POPULAR_TERREA": {
+      "nome": "Casa Térrea Popular / MCMV (45m² a 70m² - Forro PVC)",
+      "pe_direito_medio_m": 2.7,
+      "tipo_passagem": "Forro PVC + Descida Vertical Curta",
+      "fator_multiplicador_fios_base": 1.0,
+      "fator_calibrado_ia": 1.04,
+      "total_feedbacks_validados": 42,
+      "metragem_media_por_m2": {
+        "cabo_1_5_mm2_iluminacao": 1.35,
+        "cabo_2_5_mm2_tomadas": 2.1,
+        "cabo_4_0_mm2_tue_cozinha": 0.65,
+        "cabo_6_0_mm2_chuveiro": 0.45
+      }
+    },
+    "CASA_PADRAO_MEDIO_LAJE": {
+      "nome": "Casa Térrea Padrão Médio com Laje (80m² a 160m²)",
+      "pe_direito_medio_m": 3.0,
+      "tipo_passagem": "Eletroduto Embutido em Laje + Contrapiso",
+      "fator_multiplicador_fios_base": 1.15,
+      "fator_calibrado_ia": 1.18,
+      "total_feedbacks_validados": 68,
+      "metragem_media_por_m2": {
+        "cabo_1_5_mm2_iluminacao": 1.6,
+        "cabo_2_5_mm2_tomadas": 2.55,
+        "cabo_4_0_mm2_tue_ar_cozinha": 0.95,
+        "cabo_6_0_mm2_chuveiro": 0.55
+      }
+    },
+    "SOBRADO_ALTO_PADRAO": {
+      "nome": "Sobrado / Residência Alto Padrão (180m² a 400m² - Pé-Direito Duplo)",
+      "pe_direito_medio_m": 3.4,
+      "tipo_passagem": "QDC Principal + QDC Pavimento Superior + Automação",
+      "fator_multiplicador_fios_base": 1.35,
+      "fator_calibrado_ia": 1.41,
+      "total_feedbacks_validados": 29,
+      "metragem_media_por_m2": {
+        "cabo_1_5_mm2_iluminacao": 1.95,
+        "cabo_2_5_mm2_tomadas": 3.1,
+        "cabo_4_0_mm2_climatizacao": 1.35,
+        "cabo_6_0_mm2_chuveiro_ gourmet": 0.75,
+        "cabo_10_0_mm2_alimentador_qdc": 0.3
+      }
+    },
+    "APARTAMENTO_ALVENARIA_ESTRUTURAL": {
+      "nome": "Apartamento / Alvenaria Estrutural (50m² a 130m² - Gesso Rebaixado)",
+      "pe_direito_medio_m": 2.65,
+      "tipo_passagem": "Entreforro de Gesso Acartonado (Drywall) + Chicote Direto",
+      "fator_multiplicador_fios_base": 0.95,
+      "fator_calibrado_ia": 0.98,
+      "total_feedbacks_validados": 19,
+      "metragem_media_por_m2": {
+        "cabo_1_5_mm2_iluminacao": 1.25,
+        "cabo_2_5_mm2_tomadas": 1.95,
+        "cabo_4_0_mm2_ar_split": 0.85,
+        "cabo_6_0_mm2_chuveiro": 0.4
+      }
+    }
+  }
+}

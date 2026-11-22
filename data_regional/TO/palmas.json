@@ -1,0 +1,45 @@
+{
+  "uf": "TO",
+  "estado_nome": "Tocantins",
+  "cidade": "Palmas",
+  "concessionaria": "Energisa Tocantins",
+  "tensao_fase_neutro_v": 220,
+  "tensao_fase_fase_v": 380,
+  "frequencia_hz": 60,
+  "temperatura_media_projeto_c": 35,
+  "fator_correcao_temperatura_nbr5410": 0.94,
+  "distribuidora_parceira": {
+    "nome": "Capital Elétrica Distribuidora - Palmas/TO",
+    "whatsapp": "556333222120"
+  },
+  "regioes_bairros": {
+    "PLANO_DIRETOR_SUL": {
+      "nome": "Plano Diretor Sul (ARSE / Quadras Sul)",
+      "padrao_predominante": "CASA_PADRAO_MEDIO_LAJE",
+      "valor_m2_com_infra_medio": 48.0,
+      "valor_m2_sem_infra_medio": 30.0,
+      "fator_ajuste_fios_regional": 1.05
+    },
+    "PLANO_DIRETOR_NORTE": {
+      "nome": "Plano Diretor Norte (ARNO / Quadras Norte)",
+      "padrao_predominante": "CASA_PADRAO_MEDIO_LAJE",
+      "valor_m2_com_infra_medio": 45.0,
+      "valor_m2_sem_infra_medio": 28.0,
+      "fator_ajuste_fios_regional": 1.03
+    },
+    "TAQUARALTO_SUL": {
+      "nome": "Taquaralto e Região Sul",
+      "padrao_predominante": "CASA_POPULAR_TERREA",
+      "valor_m2_com_infra_medio": 40.0,
+      "valor_m2_sem_infra_medio": 25.0,
+      "fator_ajuste_fios_regional": 1.02
+    },
+    "JARDIM_AURENY": {
+      "nome": "Jardim Aureny I, II, III e IV",
+      "padrao_predominante": "CASA_POPULAR_TERREA",
+      "valor_m2_com_infra_medio": 40.0,
+      "valor_m2_sem_infra_medio": 25.0,
+      "fator_ajuste_fios_regional": 1.02
+    }
+  }
+}

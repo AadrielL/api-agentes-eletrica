@@ -1,0 +1,31 @@
+{
+  "uf": "GO",
+  "estado_nome": "Goiás",
+  "cidade": "Goiânia",
+  "concessionaria": "Equatorial Goiás",
+  "tensao_fase_neutro_v": 220,
+  "tensao_fase_fase_v": 380,
+  "frequencia_hz": 60,
+  "temperatura_media_projeto_c": 32,
+  "fator_correcao_temperatura_nbr5410": 0.94,
+  "distribuidora_parceira": {
+    "nome": "Distribuidora Elétrica Regional - Goiânia/GO",
+    "whatsapp": "556232000000"
+  },
+  "regioes_bairros": {
+    "SETOR_BUENO_MARISTA": {
+      "nome": "Setor Bueno / Marista",
+      "padrao_predominante": "SOBRADO_ALTO_PADRAO",
+      "valor_m2_com_infra_medio": 55.0,
+      "valor_m2_sem_infra_medio": 35.0,
+      "fator_ajuste_fios_regional": 1.08
+    },
+    "APARECIDA_CENTRO": {
+      "nome": "Aparecida de Goiânia / Região Sul",
+      "padrao_predominante": "CASA_PADRAO_MEDIO_LAJE",
+      "valor_m2_com_infra_medio": 45.0,
+      "valor_m2_sem_infra_medio": 28.0,
+      "fator_ajuste_fios_regional": 1.03
+    }
+  }
+}
